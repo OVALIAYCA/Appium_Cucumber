@@ -69,6 +69,7 @@ public class ReusableMethods {
     }
 
     public static void scrollWithUiScrollable(String elementText) {
+        ReusableMethods.hardWait(2);
         AndroidDriver driver = (AndroidDriver)  Driver.getAndroidDriver();
         driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"" + elementText + "\"))");
         driver.findElementByXPath("//*[@text='" + elementText + "']").click();
