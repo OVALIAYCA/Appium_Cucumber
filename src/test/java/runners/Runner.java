@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber.json",},
         features = {"src/test/resources/features","src/test/resources/apiFeatures"},
         glue = "stepdefinitions",
-        tags = "@ab",
+        tags = "@obilet",
         dryRun =false
 )
 public class Runner {

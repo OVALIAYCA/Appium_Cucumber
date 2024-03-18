@@ -8,7 +8,7 @@ Feature: Kullanici aile butcem gorevlerini gerceklestirir
     * "email" ve "password" bilgilerini girerek kullanici bilgileriyle "Giriş Yap" giris yapin
     * uygulamaya kullanici bilgileriyle giris yapildigini dogrulayin
 
-  @ab
+
   Scenario Outline: Kullanici verilen gorevler uzerinden test gorevlerini yerine getirir
 
   * sol kisimdaki menuden "Hesabım" bolumune gidin
@@ -39,7 +39,7 @@ Feature: Kullanici aile butcem gorevlerini gerceklestirir
     * basariyla eklendigini dogrulayin
     * kullanici uygulamayi kapatir
 
-  @ab
+
   Scenario:
     * anasayfadaki arti 533 1677 0 butonuna tiklayin
     * "Gelir Ekle" Butonuna text uzerinden Tiklanir
